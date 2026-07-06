@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">应用管控锁</string>
+
+    <string name="no_locked_apps">暂无受限应用</string>
+    <string name="locked_count">当前 %d 个应用受限中</string>
+
+    <string name="status_unlocked">未锁定</string>
+    <string name="btn_set_lock">设置锁定</string>
+    <string name="btn_unlock">解除锁定</string>
+    <string name="btn_reset_all">全部重置</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_go_settings">前往设置</string>
+
+    <string name="lock_settings_title">设置限制时长 - %s</string>
+    <string name="label_hours">小时</string>
+    <string name="label_minutes">分钟</string>
+
+    <string name="lock_set_success">已锁定 %1$s，时长 %2$d 分钟</string>
+    <string name="invalid_duration">请设置大于 0 分钟的时长</string>
+
+    <string name="unlock_confirm_title">确认解除</string>
+    <string name="unlock_confirm_message">确定要提前解除 %s 的限制吗？</string>
+
+    <string name="reset_all_title">重置全部</string>
+    <string name="reset_all_message">确定要解除所有应用的限制吗？</string>
+
+    <string name="permission_usage_title">需要使用情况访问权限</string>
+    <string name="permission_usage_message">为了检测当前正在运行的应用，需要授予「使用情况访问权限」。请在设置中启用。</string>
+
+    <string name="permission_overlay_title">需要悬浮窗权限</string>
+    <string name="permission_overlay_message">为了在受限应用打开时显示锁定界面，需要授予「悬浮窗权限」。请在设置中启用。</string>
+
+    <string name="monitor_notification_title">应用管控锁运行中</string>
+    <string name="monitor_notification_text">正在监控应用使用情况…</string>
+    <string name="monitor_channel_name">应用监控服务</string>
+    <string name="monitor_channel_desc">用于检测前台应用并执行锁定策略</string>
+
+    <string name="overlay_notification_title">应用已锁定</string>
+    <string name="overlay_notification_text">当前应用正在被限制使用</string>
+    <string name="overlay_channel_name">锁定遮罩服务</string>
+
+    <string name="lock_overlay_title">%s 已被锁定</string>
+    <string name="lock_overlay_subtitle">当前应用使用时间受限</string>
+    <string name="lock_overlay_back">返回</string>
+</resources>
