@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        viewModel = MainViewModel(this)
+        viewModel = MainViewModel(application)
 
         setupRecyclerView()
         observeViewModel()
