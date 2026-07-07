@@ -59,7 +59,7 @@ class LockMonitorService : LifecycleService() {
         return START_STICKY
     }
 
-    override fun onBind(intent: Intent?): IBinder? = null
+    // onBind is handled by LifecycleService
 
     override fun onDestroy() {
         super.onDestroy()
